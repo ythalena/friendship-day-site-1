@@ -14,16 +14,16 @@ export default function FinalMessageScreen() {
   const [floatingElements, setFloatingElements] = useState([])
 
   const messages = [
-    "Hey bestie! 💕",
-    "You mean the world to me...",
-    "Through every laugh, every tear, every crazy adventure...",
-    "You've been my constant, my support, my partner in crime! 🎉",
+    "Hey Lijoo ! 💕",
+    "Hii...",
+    "epdi irunduchu en gift uhh maja va eruka?",
+    "en Life la neraya per varuvanga povanga, but sila per dhaan namma soul kooda connect aavanga, and for me, that person is you. Unmai ah sollanum na, unkitta chat panumbodhu, mukkiyama naan anuppura andha neela-neelamaana voice notes ah nee porumaiya kekkum bodhudhum... I feel so heard. Ulagathulaye yaaru irukkaangalo illayo, 'Enoda Fav Person' enakkaaga irukkaanga ngra andha oru feeling dhaan enna innum run pannitu irukku. nee sogama irundhapo, unna sirikka vekkaradhula dhaan enaku muzhu santhoshame irukku. Namma rendu perum 'Broken pieces' dhaan, but onna serndhu we made a beautiful picture, illaya Lijo? But chellamma, indha birthday la unaku naan thara oru chinna cute advice — Please, overthink panradha stop panniko. Adhu un happiness ah mattum illa, un azhagaana sirippayum konnu potrum. Un mandai la odura andha unwanted thoughts edhume unmai illa. seriyaa? Just be happy, because you deserve the world. Happy Birthday to the one who holds my heart safe My gurl 🥺❤️✨.",
     "Thank you for being the most amazing friend anyone could ask for! ✨",
     "Here's to many more years of friendship, fun, and unforgettable memories! 🥳",
-    "Happy Friendship Day, my dear friend! 💖",
+    " Scroll down in 10s 💖",
   ]
 
-  const titleWords = ["HAPPY", "FRIENDSHIP", "DAY!"]
+  const titleWords = ["HAPPY", "BIRTHDAY", "LIJO!"]
 
   const isMobile = typeof window !== "undefined" && window.innerWidth < 768
 
@@ -321,7 +321,7 @@ export default function FinalMessageScreen() {
                   >
                     <Heart className="w-8 h-8 text-pink-500" fill="currentColor" />
                     <span className="bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent">
-                      You're the Best!
+                      Don't forget to open the 2nd link!
                     </span>
                     <Heart className="w-8 h-8 text-pink-500" fill="currentColor" />
                   </motion.div>
@@ -342,7 +342,7 @@ export default function FinalMessageScreen() {
               whileTap={{ scale: 0.95 }}
             >
               <span className="flex items-center gap-2">
-                Celebrate Our Friendship!
+                Celebrate Your Birthday
                 <Sparkles className="w-5 h-5" />
               </span>
             </motion.button>

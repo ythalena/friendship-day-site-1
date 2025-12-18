@@ -14,7 +14,7 @@ export default function MemoryGameScreen({ onGameComplete, gameCompleted }) {
   const [showInstructions, setShowInstructions] = useState(true)
 
   // game symbols
-  const gameSymbols = ["🤝", "💕", "🎉", "✨", "🌟", "🎈"]
+  const gameSymbols = ["🍫", "Naye", "Eruma", "✨", "🌟", "😤"]
 
   const initializeGame = () => {
     const cardPairs = [...gameSymbols, ...gameSymbols]
@@ -115,7 +115,7 @@ export default function MemoryGameScreen({ onGameComplete, gameCompleted }) {
               </motion.div>
 
               <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent">
-                Friendship Memory Game
+                Before that i want You to play a game
               </h2>
 
               <div className="text-gray-300 mb-8 space-y-3 text-left">
@@ -132,7 +132,7 @@ export default function MemoryGameScreen({ onGameComplete, gameCompleted }) {
                 whileTap={{ scale: 0.95 }}
               >
                 <span className="flex items-center gap-2">
-                  Start Friendship Challenge
+                  Start the Game
                   <Gamepad2Icon className="w-5 h-5" />
                 </span>
               </motion.button>
@@ -254,7 +254,7 @@ export default function MemoryGameScreen({ onGameComplete, gameCompleted }) {
               </motion.div>
 
               <h2 className="text-4xl md:text-5xl font-bold mb-4 py-1 bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-500 bg-clip-text text-transparent">
-                Amazing Bestie!
+                Amazing ra eruma!
               </h2>
               <p className="text-gray-300 text-xl mb-2">Completed in {moves} moves!</p>
               <p className="text-gray-400">Opening our memory album...</p>

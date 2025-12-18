@@ -1,7 +1,7 @@
 import "./globals.css"
 
 export const metadata = {
-  title: "Happy Friendship Day!",
+  title: "Happy Birth Day!",
   description: "A heartfelt surprise filled with memories, emotions, and a fun little game made just for you.",
 }
 
